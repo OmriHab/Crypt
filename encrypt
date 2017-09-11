@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [ $# -ne 1 ]; then
-	echo "Usage: encrypt <file>"
-else
-	crypt -s $1
-fi
